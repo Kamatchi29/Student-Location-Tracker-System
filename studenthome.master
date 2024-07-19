@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="studenthome.master.cs" Inherits="studenthome" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Student Location Tracker System in Android</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                   
+    <link rel="stylesheet" href="css/templatemo-style.css">    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <div class="tm-header">
+            <div class="container-fluid">
+                <div class="tm-header-inner">
+                    
+                    <!-- navbar -->
+                    <nav class="navbar tm-main-nav">
+
+                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                            &#9776;
+                        </button>
+                        
+                        <div class="collapse navbar-toggleable-sm" id="tmNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a href="viewprofile.aspx" class="nav-link">Profile</a>
+                                </li>
+                                   <li class="nav-item">
+                                    <a href="Default2.aspx" class="nav-link">Send Leave</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="sendevents.aspx" class="nav-link">Send Event</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="leavestatus.aspx" class="nav-link">Leave Status</a>
+                                 </li>
+                                  <li class="nav-item">
+                                    <a href="eventstatus.aspx" class="nav-link">Event Status</a>
+                                 </li>
+                                  <li class="nav-item">
+                                    <a href="studentlogin.aspx" class="nav-link">Logout</a>
+                                 </li>
+                            </ul>                        
+                        </div>
+                    </nav>  
+
+                </div>                                  
+            </div>            
+        </div>
+
+        <div class="tm-about-img-container">
+            
+        </div>
+
+        <section class="tm-section">
+            <div class="container-fluid">
+               
+                
+                <div class="row tm-margin-t-mid">
+                    <div class="col-xs-12">
+                      
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+          </div>
+                </div>
+
+               
+
+            </div>
+        </section>
+        
+        <footer class="tm-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    
+                  
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 tm-copyright-col">
+                  
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>           
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script> 
+    </form>
+</body>
+</html>
